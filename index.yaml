@@ -34,6 +34,39 @@ entries:
     urls:
     - https://github.com/uvoo/charts/releases/download/sftpgo-0.19.0/sftpgo-0.19.0.tgz
     version: 0.19.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Updated sftpgo to 2.5.4
+      artifacthub.io/images: |
+        - name: sftpgo
+          image: ghcr.io/drakkan/sftpgo:v2.5.4
+        - name: sftpgo-alpine
+          image: ghcr.io/drakkan/sftpgo:v2.5.4-alpine
+    apiVersion: v2
+    appVersion: 2.5.4
+    created: "2023-08-26T20:59:53.965258762Z"
+    description: Fully featured and highly configurable SFTP server with optional
+      FTP/S and WebDAV support.
+    digest: c3f580ad74837e035bf040e8b01a6f2fbcd6deb3af9b24011e4fcfa501f2ae75
+    home: https://github.com/drakkan/sftpgo
+    keywords:
+    - sftp
+    - ftp
+    - webdav
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeremybusk@gmail.com
+      name: Jeremy Busk
+      url: https://www.uvoo.io
+    name: sftpgo
+    sources:
+    - https://github.com/drakkan/sftpgo
+    - https://github.com/uvoo/charts/tree/main/charts/sftpgo
+    type: application
+    urls:
+    - https://github.com/uvoo/charts/releases/download/sftpgo-0.1.0/sftpgo-0.1.0.tgz
+    version: 0.1.0
   zabbix:
   - apiVersion: v2
     appVersion: 6.0.4
@@ -64,4 +97,4 @@ entries:
     urls:
     - https://github.com/uvoo/charts/releases/download/zabbix-2.0.0/zabbix-2.0.0.tgz
     version: 2.0.0
-generated: "2023-08-26T20:45:10.814632596Z"
+generated: "2023-08-26T20:59:53.965277063Z"
