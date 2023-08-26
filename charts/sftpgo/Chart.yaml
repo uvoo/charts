@@ -1,7 +1,7 @@
 apiVersion: v2
 type: application
 name: sftpgo
-version: 0.19.0
+version: 0.1.0
 appVersion: 2.5.4
 kubeVersion: ">=1.16.0-0"
 description: Fully featured and highly configurable SFTP server with optional FTP/S and WebDAV support.
@@ -12,11 +12,11 @@ keywords:
 home: https://github.com/drakkan/sftpgo
 sources:
   - https://github.com/drakkan/sftpgo
-  - https://github.com/sagikazarmark/helm-charts/tree/master/charts/sftpgo
+  - https://github.com/uvoo/charts/tree/main/charts/sftpgo
 maintainers:
-  - name: sagikazarmark
-    email: mark.sagikazar@gmail.com
-    url: https://sagikazarmark.hu
+  - name: Jeremy Busk 
+    email: jeremybusk@gmail.com
+    url: https://www.uvoo.io
 annotations:
   artifacthub.io/changes: |
     - kind: changed
