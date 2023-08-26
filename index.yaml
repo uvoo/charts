@@ -1,5 +1,39 @@
 apiVersion: v1
 entries:
+  sftpgo:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Updated sftpgo to 2.5.4
+      artifacthub.io/images: |
+        - name: sftpgo
+          image: ghcr.io/drakkan/sftpgo:v2.5.4
+        - name: sftpgo-alpine
+          image: ghcr.io/drakkan/sftpgo:v2.5.4-alpine
+    apiVersion: v2
+    appVersion: 2.5.4
+    created: "2023-08-26T20:45:10.814626796Z"
+    description: Fully featured and highly configurable SFTP server with optional
+      FTP/S and WebDAV support.
+    digest: 5e7a816865ab1617b04b9c753173c40daf051aa2fa53ca90a503287377ce2859
+    home: https://github.com/drakkan/sftpgo
+    keywords:
+    - sftp
+    - ftp
+    - webdav
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: mark.sagikazar@gmail.com
+      name: sagikazarmark
+      url: https://sagikazarmark.hu
+    name: sftpgo
+    sources:
+    - https://github.com/drakkan/sftpgo
+    - https://github.com/sagikazarmark/helm-charts/tree/master/charts/sftpgo
+    type: application
+    urls:
+    - https://github.com/uvoo/charts/releases/download/sftpgo-0.19.0/sftpgo-0.19.0.tgz
+    version: 0.19.0
   zabbix:
   - apiVersion: v2
     appVersion: 6.0.4
@@ -30,4 +64,4 @@ entries:
     urls:
     - https://github.com/uvoo/charts/releases/download/zabbix-2.0.0/zabbix-2.0.0.tgz
     version: 2.0.0
-generated: "2022-05-22T15:52:09.785433827Z"
+generated: "2023-08-26T20:45:10.814632596Z"
