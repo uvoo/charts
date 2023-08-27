@@ -53,7 +53,7 @@ spec:
             - name: SFTPGO_SFTPD__BINDINGS__0__ADDRESS
               value: "0.0.0.0"
             {{- end }}
-          {{- if .Values.persistentVolume.enabled }}
+          {{- if .Values.persistence.enabled }}
           volumeMounts:
             - mountPath: /var/lib/sftpgo
               name: var-lib-sftpgo
